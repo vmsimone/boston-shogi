@@ -10,31 +10,62 @@ body {
 }
 
 main {
-    /* background-color: var(--blu); */
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 main h1 {
     color: var(--ylw);
     font-size: 56px;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    margin: 0;
 }
 
 section {
     border: 5px solid var(--red);
     border-radius: 5px;
     background-color: var(--blu);
-    margin: 25px;
-    padding: 20px;
+    margin: 5px;
+    padding: 10px;
 }
 
 section h2 {
     color: var(--ylw);
-    font-size: 48px;
+    font-size: 32px;
+    font-family: 'Lobster', sans-serif;
     margin: 0;
+}
+
+section p {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 10px;
 }
 
 a {
     color: var(--ylw);
+}
+
+@media only screen and (min-width: 900px) {
+    main {
+        width: 80%;
+        font-size: 24px;
+    }
+
+    main h1 {
+        font-size: 64px;
+        text-align: left;
+        margin: 25px;
+    }
+    
+    section h2 {
+        font-size: 48px;
+    }
+    
+    section {
+        margin: 25px;
+        padding: 20px;
+    }
+    
 }
