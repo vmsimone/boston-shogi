@@ -1,0 +1,40 @@
+:root {
+	--brn: #6b4f52;
+	--blu: #4c8795;
+	--red: #cc3e30;
+	--ylw: #d58b30;
+}
+
+body {
+    background-color: var(--brn);
+}
+
+main {
+    /* background-color: var(--blu); */
+    width: 80%;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+main h1 {
+    color: var(--ylw);
+    font-size: 56px;
+}
+
+section {
+    border: 5px solid var(--red);
+    border-radius: 5px;
+    background-color: var(--blu);
+    margin: 25px;
+    padding: 20px;
+}
+
+section h2 {
+    color: var(--ylw);
+    font-size: 48px;
+    margin: 0;
+}
+
+a {
+    color: var(--ylw);
+}
