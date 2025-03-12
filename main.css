@@ -38,6 +38,11 @@ section h2 {
     margin: 0;
 }
 
+section h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+}
+
 section p {
     font-family: 'Noto Sans JP', sans-serif;
     margin: 10px;
@@ -62,10 +67,14 @@ a {
     section h2 {
         font-size: 48px;
     }
+
+    section h3 {
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 32px;
+    }
     
     section {
         margin: 25px;
         padding: 20px;
     }
-    
 }
